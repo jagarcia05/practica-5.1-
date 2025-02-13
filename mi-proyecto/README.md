@@ -1,7 +1,7 @@
 # 📖 Documentación del Proyecto
 
 ## 📌 Introducción  
-Este proyecto en **React + TypeScript** usa **Tailwind CSS** para el diseño y contiene varios componentes reutilizables, como un **Header**, **Slider**, **Card** y **Button**.  
+Este proyecto está desarrollado en **React + TypeScript** y utiliza **Tailwind CSS** para el diseño. Cuenta con varios componentes reutilizables, como **Header**, **Slider**, **Card** y **Button**, todos ellos diseñados en **Figma**, incluyendo tanto las variables de estilo como la estructura de los componentes.
 
 ---
 
@@ -109,6 +109,11 @@ const images = ["img1.jpg", "img2.jpg", "img3.jpg"];
 ✅ **React + TypeScript**  
 ✅ **Tailwind CSS**  
 ✅ **Vite** (para un desarrollo rápido)  
+
+## Links Proyectos
+[figma](https://www.figma.com/design/SCM4nGlVgsW7VnW68uu3Su/Untitled?node-id=40-2&p=f&t=l4fxHb0Wh0wKSl10-0)
+[git gub](https://github.com/jagarcia05/practica-5.1-/tree/main/mi-proyecto)
+
 
 ---
 
