@@ -1,4 +1,4 @@
-import Button from "./botton"; // Corrige el nombre del archivo (button en vez de botton)
+import Button from "./Button"; // Corrige el nombre del archivo (button en vez de botton)
 
 interface CardProps {
   titulo: string;

@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import Botton from "./Button";
 interface SliderProps {
   images: string[];
 }
@@ -25,7 +25,7 @@ function Slider({ images }: SliderProps) {
       <p className="text-gray-600 mb-4">Trabajos exitosos que hablan por nosotros</p>
       
       {/* Contenedor de la imagen */}
-      <div className="relative w-full max-w-lg mx-auto overflow-hidden rounded-lg shadow-lg bg-black flex justify-center items-center h-64">
+      <div className="relative w-full max-w-lg mx-auto overflow-hidden rounded-lg shadow-lg bg-primary flex justify-center items-center h-64">
         {/* Botón de retroceso */}
         <button
           onClick={prevSlide}
@@ -44,19 +44,15 @@ function Slider({ images }: SliderProps) {
         {/* Botón de avance */}
         <button
           onClick={nextSlide}
-          className="absolute right-4 text-white text-3xl bg-black p-2 rounded-full opacity-50 hover:opacity-100 transition duration-200"
+          className="absolute right-4 text-secundary text-3xl bg-primary p-2 rounded-full opacity-50 hover:opacity-100 transition duration-200"
         >
           &#8594;
         </button>
       </div>
       
       {/* Botón adicional para ver más proyectos (opcional) */}
-      <button
-        className="mt-4 bg-blue-500 text-white px-4 py-2 rounded"
-        onClick={nextSlide}
-      >
-        Ver más proyectos
-      </button>
+     
+       <Botton text="Ver más proyectos" link="https://github.com/jagarcia05/practica-5.1-" />
     </div>
   );
 }

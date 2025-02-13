@@ -1,8 +1,6 @@
-import Button from "./components/botton";
 import Header from "./components/header";
 import Card from "./components/card";
 import Card2 from "./components/card2";
-import Acordeon from "./components/slider";
 import Slider from "./components/slider";
 
 
@@ -10,7 +8,7 @@ function App() {
   return (
     <div>
      <Header navlogo="./src/img/descarga.jpg" navitem1="pepe" navitem2="pep1" navitem3="pepe1" navitem4="pepe" navlupa="./src/img/lupa.png"></Header>
-        <Button text="hola pepe" />
+       
 
     <main className="bg-secundary">
       <div className="container mx-auto grid grid-cols-5 gap-6 p-6">
@@ -51,7 +49,7 @@ function App() {
 
       </div>
 
-      <div className="container mx-auto">
+      <div className="container mx-auto text-center" >
       <Slider images={["./src/img/descarga.png", "./src/img/descarga.jpg", "./src/img/descarga.jpg"]} />
 
       </div>
