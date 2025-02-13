@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-border-color: #e2e8f0;
+  --color-button-hover: #2563eb;
+  --color-button-primary: #3b82f6;
+  --color-primary: #1e293b;
+  --color-secundary: #f3f4f6;
+  --color-tx-primary: #0f172a;
+  --color-tx-secundary: #64748b;
+
+  /* Font Sizes and Weights */
+
+  --text-h1: 32px;
+  --text-h2: 24px;
+  --text-p: 16px;
+  --font-weight-h1: Infinityrem;
+  --font-weight-h2: Infinityrem;
+  --font-weight-p: Infinityrem;
+
+  /* Font Families */
+  --font-family-h1: 'Inter', sans-serif;
+  --font-family-h2: 'Inter', sans-serif;
+  --font-family-p: 'Inter', sans-serif;
+}
