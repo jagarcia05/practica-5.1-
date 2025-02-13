@@ -15,7 +15,7 @@ function App() {
         <Card
           imageSource="./src/img/descarga.png"
          
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nulla ac justo egestas lacinia."
+          description="Lorem ipsum dolor sit amet, consectetur adiCACACACACCAAC nec nulla ac justo egestas lacinia."
         />
         <Card
           imageSource="./src/img/descarga.png"
