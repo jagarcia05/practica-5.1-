@@ -9,7 +9,7 @@ interface HeaderProps {
 
 function Header({ navlogo, navitem1, navitem2, navitem3, navitem4, navlupa }: HeaderProps) {
     return (
-        <header className="bg-white shadow-md">
+        <header className="bg-white shadow-md shadow-b">
         <div className="container mx-auto flex items-center justify-between p-4 text-p font-family-p">
           
         

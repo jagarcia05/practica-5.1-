@@ -44,10 +44,10 @@ Este componente representa la barra de navegación con un logo, enlaces y un ico
 ```tsx
 <Header 
   navlogo="logo.png"
-  navitem1="Inicio"
-  navitem2="Servicios"
-  navitem3="Portafolio"
-  navitem4="Contacto"
+  navitem1="Home"
+  navitem2="About us"
+  navitem3="Services"
+  navitem4="Contact"
   navlupa="lupa.png"
 />
 ```

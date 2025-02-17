@@ -16,7 +16,7 @@ function Card({ titulo2, description }: CardProps) {
           <p className="text-tx-primary mb-4 text-p">
             {description}
           </p>
-          <Button text="ver más" />
+          <Button text="Ver más" />
         </div>
       </div>
     </div>
