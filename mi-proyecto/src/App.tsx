@@ -1,4 +1,4 @@
-import Header from "./components/header";
+import Header from "./components/Header";
 import CardActividad from "./components/CardActividad";
 import CardTrabajadores from "./components/CardTrabajadores";
 import Slider from "./components/Slider";
